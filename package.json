@@ -19,15 +19,24 @@
     "@strapi/plugin-users-permissions": "5.34.0",
     "@strapi/strapi": "5.34.0",
     "better-sqlite3": "12.4.1",
+    "date-fns": "^4.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
+    "@strapi/admin": "^5.34.0",
+    "@strapi/data-transfer": "^5.34.0",
+    "@strapi/types": "^5.34.0",
+    "@types/lodash": "^4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/semver": "^7",
+    "esbuild": "^0.27.2",
+    "lodash": "^4.17.23",
+    "semver": "^7.7.3",
     "typescript": "^5"
   },
   "engines": {
@@ -37,5 +46,6 @@
   "strapi": {
     "uuid": "1afa1ce8-acde-4763-8696-5903728333e7",
     "installId": "4f80f67629fdc77882e1b98031a361258e7500d13737c185743740aed33ae675"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
